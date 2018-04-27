@@ -1,0 +1,214 @@
+.calcPlatform {
+	width: 325px;
+	height: 400px;
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	position: relative;
+	border: solid grey 2px;
+	border-bottom: solid grey 3px;
+	left: 50%;
+	margin-left: -162.5px;
+	bottom: 50%;
+	margin-top: 140px;
+}
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+.screen {
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 200;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	margin-top: 30px;
+	margin-left: -45%;
+	vertical-align: middle;
+	color: grey;
+	border: none;
+	pointer-events: none;
+	background: transparent;
+}
+.screen:focus {
+	outline: none;
+}
+html {
+	background-color: ;
+}
+.number {
+	text-align: center;
+	color: white;
+	width: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 100;
+	height: 60px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0.50px;
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.halfButtons {
+	text-align: center;
+	color: white;
+	width: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 100;
+	height: 60px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0.50px;
+}
+.equals {
+	text-align: center;
+	color: white;
+	width: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 200;
+	top: 60px;
+	border-top: solid black 2px;
+	height: 40px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px;
+	background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+	background-blend-mode: normal, lighten, soft-light;
+}
+.equalsText {
+	position: relative;
+	top: 11px;
+}
+.decimal {
+	text-align: center;
+	color: white;
+	width: 60px;
+	position: absolute;
+	z-index: 1;
+	border-bottom: solid #6eff00 2px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 200;
+	height: 30px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px;
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
+	background-blend-mode: normal, lighten, soft-light;
+}
+.decimalText {
+	position: relative;
+	/* bottom: 0; */
+	bottom: 5px;
+}
+.add {
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+	height: 60px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0.50px;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.subtract {
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+	height: 60px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0.50px;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.divide {
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	padding-top: 15px;
+	font-weight: 300;
+	height: 45px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0.50px;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.multiply {
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+	height: 60px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0.50px;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.clear {
+	text-align: center;
+	color: white;
+	width: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 100;
+	height: 60px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0.50px;
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.calcButtonContainer {
+	position: absolute;
+	bottom: 0;
+	height: 242px;
+	border-top: solid grey 2px;
+	width: 100%;
+}
+.calcNumbers {
+	height: 242px;
+	width: 191px;
+	float: left;
+}
+.functionButtons {
+	width: 134px;
+	height: 242px;
+	float: right;
+}
+.historyBox {
+	width: 325px;
+	height: 150px;
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	position: relative;
+	border: solid grey 2px;
+	left: 50%;
+	margin-left: -162.5px;
+	margin-top: 10px;
+	text-align: center;
+	overflow: scroll;
+}
+.historyTitle {
+	margin: 0px;
+	margin-top: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 200;
+}
+.historyItem {
+	margin: 0px;
+	margin-top: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+	font-weight: 200;
+}
